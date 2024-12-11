@@ -35,6 +35,7 @@ Create a `.env` file in the `backend/` folder and add the following variables:
 PORT=8000
 MONGO_URL=your-mongodb-connection-string
 JWT_SECRET=your-jwt-secret-key
+JWT_EXPIRES_IN=your_token_expiration_time
 ```
 
 ### 3. Install Dependencies  
